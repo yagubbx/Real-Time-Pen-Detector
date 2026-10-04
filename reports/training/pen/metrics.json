@@ -1,0 +1,48 @@
+{
+  "base_model": "yolov8n.pt",
+  "classes": {
+    "0": "pen"
+  },
+  "seed": 42,
+  "requested_epochs": 40,
+  "imgsz": 416,
+  "batch": 8,
+  "freeze": 10,
+  "device": "cpu",
+  "threads": 2,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.14.1+cpu",
+  "ultralytics": "8.3.221",
+  "elapsed_seconds": 760.94,
+  "dataset": {
+    "train": {
+      "images": 99,
+      "positive_images": 99,
+      "boxes": 143
+    },
+    "val": {
+      "images": 25,
+      "positive_images": 25,
+      "boxes": 42
+    }
+  },
+  "dataset_sha256": "15f8805d94b21ff84e4d446663402b38064618da22372c47c02b17bbf4b8a0db",
+  "weights_sha256": "799a8d1db0892c97eb65fe6b837fc6157ae80ab5e7ebc35984430e05ad851b4c",
+  "checkpoint_selection_confidence": 0.1,
+  "validation": {
+    "precision": 0.7924755895571876,
+    "recall": 0.6190476190476191,
+    "mAP50": 0.7449114879976982,
+    "mAP50_95": 0.4874946956515882,
+    "per_class": {
+      "pen": {
+        "precision": 0.7924755895571876,
+        "recall": 0.6190476190476191,
+        "mAP50": 0.7449114879976982,
+        "mAP50_95": 0.4874946956515882
+      }
+    }
+  },
+  "dataset_sha256_at_training": "c6ba37745103c4447873c08e998b2fc2b9872c3d0ed2ec7b759f20a36ac4ca68",
+  "dataset_note": "Files were renamed after training. Image content, box labels, and the train/validation split are unchanged."
+}

@@ -1,0 +1,13 @@
+{
+  "unit_tests": 9,
+  "unit_tests_passed": true,
+  "headless_video_frames": 150,
+  "recording_test_frames": 90,
+  "recording_test": "Video source with simulated UI keys; no live lighting or webcam validation.",
+  "trained_classes": {
+    "0": "pen"
+  },
+  "trained_layer_max_change": 0.0339813232421875,
+  "completed_epochs": 40,
+  "weights_sha256": "799a8d1db0892c97eb65fe6b837fc6157ae80ab5e7ebc35984430e05ad851b4c"
+}

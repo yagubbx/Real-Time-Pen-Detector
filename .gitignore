@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.cache
+runs/
+Ultralytics/
+captures/
+custom-data/
+.DS_Store

@@ -1,0 +1,5 @@
+*.pt binary
+*.jpg binary
+*.png binary
+# Keep annotation bytes stable across Windows and Linux clones.
+data/labels/**/*.txt -text
